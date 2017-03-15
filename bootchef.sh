@@ -3,7 +3,7 @@
 sed -i s#Defaults.*requiretty#Defaults\ \!requiretty#g /etc/sudoers
 cd /tmp/
 echo "Downloading the rpm"
-wget  http://54.202.25.127/chef-12.19.36-1.el7.x86_64.rpm
+wget  http://35.163.215.138/chef_12.19.36-1_amd64.deb
 
 echo "Installating the rpm"
 
